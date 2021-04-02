@@ -1,0 +1,59 @@
+.body{
+    border:1px solid red;
+    flex:0.8;
+    background: linear-gradient(rgb(91,87,115),rgba(0,0,0,1));
+    height: 100vh;
+    color:white;
+    padding: 30px;
+    overflow-y: overlay;
+
+    &Info{
+        display:flex;
+        align-items: flex-end;
+        padding: 10px;
+        img{
+            height:20vw;
+            margin:0 20px;
+            box-shadow:0 4px 60px rgba(0,0,0,0.5);
+        }
+    }
+    &InfoText{
+        flex:1;
+        h2{
+            font-size:48px;
+            margin-bottom: 10px;
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+    &Songs{
+        margin:20px -30px;
+    }
+    &Shuffle{
+        font-size:70px !important;
+        margin-left:50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        :hover{
+            transition:100ms transform ease-in;
+            transform:scale(1.08);
+        }
+    }
+    &favourite{
+        margin-left:20px;
+        margin-bottom: 30px;
+        font-size:40px;
+    }
+    &moreIcon{
+        margin-left: 20px;
+        margin-bottom: 30px;
+        font-size:50px;
+    }
+    &Icons{
+        display: flex;
+        align-items:center;
+    }
+
+
+}

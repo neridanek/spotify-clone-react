@@ -1,0 +1,25 @@
+.sidebar{
+    border:1px solid black;
+    height: 100vh;
+    flex:0.2;
+    background-color: #040404;
+    color:white;
+    min-width: 230px;
+
+    &Logo{
+        margin-right: auto;
+        height:70px;
+        padding: 10px;
+    }
+    &Title{
+        margin-left: 15px;
+        padding: 5px;
+        font-size: 13px;
+        
+    }
+    hr{
+        border:1px solid #282828;
+        width: 90%;
+        margin:10px auto;
+    }
+}
