@@ -1,9 +1,9 @@
 import React from 'react'
 import styles from "./SongRow.module.scss"
 
-const SongRow = ({track}) =>{
+const SongRow = ({track,playSong}) =>{
     return(
-        <div className={styles.songRow}>
+        <div className={styles.songRow} onClick={playSong(track.id)}>
             <img className={styles.songRowAlbum} src={track.album.images[0].url} alt=""/>
             <div className={styles.songRowInfo}>
                 <h1>{track.name}</h1>

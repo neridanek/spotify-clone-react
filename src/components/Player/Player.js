@@ -12,7 +12,7 @@ const Player = ({spotify}) => {
             <Body spotify={spotify}/>
             </div>
 
-            <Footer/>
+            <Footer spotify={spotify}/>
             <h1>Welcome in spotify</h1>
         </div>
     )
